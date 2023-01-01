@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    background: rgb(243, 243, 246);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+section.items {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.product {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 6px;
+    flex: 0 0 calc(33.333% - 24px);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;    
+}
+.product.selected {
+    border: 2px solid rgb(29, 134, 233);
+
+}
+.photo img {
+    max-width: 90px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+}
+.price {
+    font-weight: bold;
+    margin: 4px auto;
+}
+.quantity-area {
+    margin: 8px auto;
+    height: 14px;
+}
+.quantity-area button {
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.quantity {
+    font-weight: bold;
+    margin: 0 4px;
+}
+section.summary {
+    background-color: rgb(213, 213, 213);
+    padding: 20px;
+    min-height: 200px;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 16px;
+}
+table {
+    width: 100%;
+    padding-top: 12px;
+    font-size: 11px;
+    margin: auto;
+}
+section.summary table tbody tr:last-of-type th {
+    border-top: 1px solid black;
+    padding-top: 4px;
+}
+
+
+
